@@ -75,12 +75,21 @@ this.game.gameInstances.Controller.userData.HeroHandler.heroes.allUpgradesOrdere
 this.game.gameInstances.Controller.userData.HeroHandler.heroes.allUpgradesOrdered.List.RequiredUpgradeID := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes.allUpgradesOrdered.List,"Int", [0x8c])
 this.game.gameInstances.Controller.userData.HeroHandler.heroes.allUpgradesOrdered.List.defaultSpecGraphic := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes.allUpgradesOrdered.List,"Int", [0x90])
 this.game.gameInstances.Controller.userData.HeroHandler.heroes.allUpgradesOrdered.List.IsPurchased := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes.allUpgradesOrdered.List,"Char", [0xa8])
+<<<<<<< Updated upstream
 this.game.gameInstances.Controller.userData.HeroHandler.heroes.health := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes,"Double", [0x370])
 this.game.gameInstances.Controller.userData.HeroHandler.heroes.slotId := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes,"Int", [0x320])
 this.game.gameInstances.Controller.userData.HeroHandler.heroes.Owned := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes,"Char", [0x31c])
 this.game.gameInstances.Controller.userData.HeroHandler.heroes.Benched := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes,"Char", [0x32c])
 this.game.gameInstances.Controller.userData.HeroHandler.heroes.level := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes,"Int", [0x348])
 this.game.gameInstances.Controller.userData.HeroHandler.heroes.purchasedUpgradeIDs := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes,"HashSet", [0x2d8])
+=======
+this.game.gameInstances.Controller.userData.HeroHandler.heroes.health := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes,"Double", [0x360])
+this.game.gameInstances.Controller.userData.HeroHandler.heroes.slotId := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes,"Int", [0x310])
+this.game.gameInstances.Controller.userData.HeroHandler.heroes.Owned := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes,"Char", [0x30c])
+this.game.gameInstances.Controller.userData.HeroHandler.heroes.Benched := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes,"Char", [0x31c])
+this.game.gameInstances.Controller.userData.HeroHandler.heroes.level := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes,"Int", [0x338])
+this.game.gameInstances.Controller.userData.HeroHandler.heroes.purchasedUpgradeIDs := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes,"HashSet", [0x2c8])
+>>>>>>> Stashed changes
 this.game.gameInstances.ClickLevel := New GameObjectStructure(this.game.gameInstances,"Int", [0x108])
 this.game.gameStarted := New GameObjectStructure(this.game,"Char", [0x100])
 this.game.gameInstances.ResetsSinceLastManual := New GameObjectStructure(this.game.gameInstances,"Int", [0xf4])
